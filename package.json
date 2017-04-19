@@ -1,0 +1,26 @@
+{
+  "name": "pckgs-exc",
+  "version": "0.1.0",
+  "description": "This is just an exercise for npm packages.",
+  "main": "dist/src/language.js",
+  "scripts": {
+    "build": "babel src/language.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemapau/pckgs-exc.git"
+  },
+  "author": "Maria Paulina Arenas <je.mapau@gmail.com> (https://twitter.com/je_mapau)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemapau/pckgs-exc/issues"
+  },
+  "homepage": "https://github.com/jemapau/pckgs-exc#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
